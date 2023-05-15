@@ -1,0 +1,1863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="simple case" time="242.054" tests="20" failures="0" errors="0">
+   <testsuite name="simple case" tests="20" failures="0" errors="0" time="242.054" skipped="0" timestamp="2023-05-12 13:07:50" hostname="minh.nguyen - 5YHW2D3" id="Test Suites/simple case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\minh.nguyen\\Desktop\\GitRepo\\tri-nhan-repo\\Reports\\20230512_121224\\simple case\\20230512_121253"/>
+         <property name="logFiles" value="C:\\Users\\minh.nguyen\\Desktop\\GitRepo\\tri-nhan-repo\\Reports\\20230512_121224\\simple case\\20230512_121253\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="minh.nguyen - 5YHW2D3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.86"/>
+         <property name="sessionId" value="074879b0868256d533d394e22af1e0a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="14.648" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:07:51 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:07:51 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:07:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:07:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:07:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:07:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:07:56 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:07:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:07:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:07:57 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:07:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:08:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:08:00 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:08:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:08:01 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:08:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:08:02 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:08:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:08:03 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:08:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:08:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:08:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:08:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:08:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:08:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:08:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.737" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:08:05 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:08:05 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:08:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:08:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:08:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:08:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:08:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:08:08 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:08:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:08:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:08:09 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:08:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:08:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:08:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:08:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:08:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:08:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:08:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:08:12 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:08:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:08:13 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:08:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:08:13 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:08:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:08:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:08:15 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:08:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:08:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:08:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:08:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:08:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:08:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.522" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:08:17 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:08:17 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:08:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:08:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:08:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:08:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:08:20 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:08:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:08:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:08:21 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:08:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:08:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:08:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:08:24 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:08:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:08:24 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:08:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:08:25 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:08:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:08:27 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:08:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:08:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:08:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:08:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="12.04" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:08:29 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:08:29 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:08:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:08:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:08:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:08:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:08:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:08:32 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:08:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:08:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:08:32 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:08:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:08:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:08:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:08:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:08:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:08:36 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:08:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:08:37 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:08:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:08:37 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:08:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:08:39 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:08:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:08:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:08:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:08:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:08:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:08:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="12.379" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:08:41 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:08:41 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:08:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:08:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:08:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:08:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:08:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:08:44 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:08:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:08:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:08:44 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:08:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:08:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:08:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:08:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:08:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:08:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:08:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:08:48 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:08:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:08:49 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:08:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:08:49 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:08:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:08:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:08:51 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:08:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:08:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:08:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:08:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.876" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:08:53 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:08:53 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:08:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:08:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:08:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:08:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:08:56 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:08:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:08:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:08:57 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:08:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:09:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:09:00 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:09:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:09:01 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:09:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:09:01 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:09:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:09:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:09:03 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:09:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:09:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:09:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:09:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:09:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:09:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="12.17" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:09:05 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:09:05 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:09:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:09:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:09:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:09:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:09:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:09:08 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:09:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:09:09 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:09:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:09:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:09:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:09:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:09:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:09:12 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:09:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:09:13 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:09:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:09:13 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:09:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:09:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:09:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:09:15 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:09:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:09:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:09:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="12.168" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:09:17 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:09:17 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:09:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:09:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:09:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:09:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:09:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:09:20 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:09:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:09:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:09:21 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:09:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:09:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:09:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:09:24 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:09:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:09:25 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:09:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:09:26 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:09:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:09:27 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:09:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:09:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:09:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:09:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="12.544" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:09:29 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:09:29 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:09:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:09:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:09:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:09:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:09:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:09:33 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:09:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:09:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:09:33 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:09:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:09:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:09:37 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:09:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:09:38 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:09:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:09:38 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:09:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:09:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:09:40 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:09:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:09:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:09:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:09:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:09:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:09:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:09:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:09:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="12.314" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:09:42 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:09:42 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:09:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:09:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:09:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:09:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:09:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:09:45 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:09:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:09:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:09:46 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:09:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:09:49 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:09:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:09:50 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:09:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:09:50 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:09:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:09:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:09:52 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:09:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:09:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:09:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:09:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.52" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:09:54 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:09:54 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:09:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:09:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:09:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:09:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:09:57 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:09:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:09:57 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:09:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:09:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:10:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:10:01 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:10:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:10:01 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:10:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:10:02 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:10:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:10:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:10:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:10:03 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:10:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:10:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:10:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:10:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:10:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.707" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:10:06 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:10:06 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:10:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:10:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:10:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:10:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:10:09 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:10:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:10:09 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:10:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:10:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:10:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:10:13 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:10:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:10:13 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:10:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:10:14 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:10:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:10:15 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:10:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:10:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:10:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:10:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.966" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:10:17 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:10:17 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:10:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:10:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:10:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:10:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:10:20 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:10:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:10:21 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:10:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:10:24 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:10:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:10:25 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:10:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:10:26 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:10:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:10:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:10:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:10:27 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:10:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:10:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:10:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="12.073" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:10:29 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:10:29 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:10:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:10:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:10:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:10:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:10:32 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:10:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:10:33 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:10:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:10:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:10:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:10:37 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:10:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:10:37 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:10:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:10:38 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:10:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:10:39 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:10:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:10:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:10:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:10:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:10:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.81" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:10:41 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:10:41 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:10:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:10:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:10:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:10:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:10:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:10:44 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:10:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:10:45 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:10:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:10:49 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:10:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:10:49 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:10:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:10:50 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:10:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:10:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:10:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:10:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.688" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:10:53 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:10:53 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:10:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:10:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:10:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:10:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:10:56 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:10:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:10:57 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:11:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:11:00 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:11:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:11:01 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:11:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:11:01 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:11:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:11:03 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:11:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:11:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:11:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:11:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.786" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:11:05 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:11:05 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:11:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:11:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:11:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:11:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:11:08 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:11:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:11:08 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:11:10 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:11:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:11:10 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:11:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:11:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:11:12 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:11:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:11:13 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:11:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:11:13 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:11:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:11:15 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:11:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:11:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:11:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:11:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:11:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:11:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.872" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:11:17 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:11:17 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:11:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:11:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:11:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:11:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:11:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:11:20 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:11:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:11:20 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:11:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:11:24 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:11:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:11:24 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:11:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:11:25 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:11:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:11:26 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:11:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:11:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:11:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:11:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:11:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:11:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="12.117" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:11:29 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:11:29 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:11:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:11:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:11:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:11:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:11:31 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:11:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:11:32 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:11:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:11:36 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:11:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:11:36 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:11:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:11:37 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:11:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:11:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:11:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:11:38 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:11:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:11:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:11:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:11:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:11:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test-flow-1-buy-1-product" time="11.716" classname="Test Cases/test-flow-1-buy-1-product" status="PASSED">
+         <system-out><![CDATA[2023-05-12 13:11:41 - [TEST_CASE][PASSED] - Test Cases/test-flow-1-buy-1-product: Test Cases/test-flow-1-buy-1-product
+
+2023-05-12 13:11:41 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:11:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-12 13:11:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-12 13:11:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2023-05-12 13:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is clicked on
+
+2023-05-12 13:11:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:11:43 - [MESSAGE][PASSED] - Keys 'standard_user' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-12 13:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password' is clicked on
+
+2023-05-12 13:11:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:11:44 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-05-12 13:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-12 13:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/Backpack")): Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/Backpack' is clicked on
+
+2023-05-12 13:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/button_Add to cart")): Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/button_Add to cart' is clicked on
+
+2023-05-12 13:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/products_back-image")): Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/products_back-image' is clicked on
+
+2023-05-12 13:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/inventoryPage/cart")): Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/inventoryPage/cart' is clicked on
+
+2023-05-12 13:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckoutPage/button_Checkout")): Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckoutPage/button_Checkout' is clicked on
+
+2023-05-12 13:11:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_firstName"), "demo"): Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:11:48 - [MESSAGE][PASSED] - Keys 'demo' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_firstName'
+
+2023-05-12 13:11:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_lastName"), "qa test"): Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:11:48 - [MESSAGE][PASSED] - Keys 'qa test' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_lastName'
+
+2023-05-12 13:11:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/checkout-step-one/input_Checkout Your Information_postalCode"), "9000"): Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:11:49 - [MESSAGE][PASSED] - Keys '9000' sent to object: 'Object Repository/checkout-step-one/input_Checkout Your Information_postalCode'
+
+2023-05-12 13:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout-step-one/input_continue")): Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout-step-one/input_continue' is clicked on
+
+2023-05-12 13:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/finish checkout/button_Finish")): Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/finish checkout/button_Finish' is clicked on
+
+2023-05-12 13:11:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/order-success/h2_Thank you for your order")): Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:11:50 - [MESSAGE][PASSED] - Object 'Object Repository/order-success/h2_Thank you for your order' is visible
+
+2023-05-12 13:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/sidebar")): Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/sidebar' is clicked on
+
+2023-05-12 13:11:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavSideBar/a_Logout")): Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/NavSideBar/a_Logout' is clicked on
+
+2023-05-12 13:11:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' is visible
+
+2023-05-12 13:11:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-12 13:11:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-12 13:07:50 - [TEST_SUITE][PASSED] - simple case: Test Cases/test-flow-1-buy-1-product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
