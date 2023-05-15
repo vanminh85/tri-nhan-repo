@@ -6,7 +6,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
  * Step 1: Login to Shoping page
  * Step 2: Select first Item to add to cart
  */
-WebUI.openBrowser('https://nguyen-tri-nhan.github.io/')
+WebUI.openBrowser('http://localhost:3000/')
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'))
 WebUI.sendKeys(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'),'standard_user')
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'))
